@@ -1,0 +1,154 @@
+body {
+	background-image: url('img/charleroi-background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: cyan;
+	font-weight: bold;
+}
+h3 {
+	font-family: Informal Roman, serif;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.8rem;
+	margin-top: 0;
+}
+/* HEADER SECTION */
+header {
+	background-image: url('img/neon-graffiti.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 200px;
+}
+.intro h1, .intro h2 {
+	width: 25%;
+	margin: 0 auto;
+	background: linear-gradient(to left, #F27EE9, #BBF5B8 40%);
+	border: 4px solid black;
+	border-radius: 0 0 50% 50%;
+	font-family: Stencil, serif;
+	font-size: 1.6rem;
+	text-shadow: 0.3rem 0 0 #F558DD;
+	opacity: 0.99;
+	transition: letter-spacing 3s;
+}
+/* THE BODY */
+#zen-summary, #zen-preamble {
+	width: 66%;
+	margin: 1rem auto;
+	border-width: 20px;
+	border-image: url(http://i.imgur.com/gP414jh.png) 20 stretch;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0.5;
+	transition: background-color 1s, color 1s 1s, opacity 1s;
+}
+#zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
+	width: 66%;
+	margin: 1rem auto;
+	border-width: 20px;
+	border-image: url(http://i.imgur.com/gP414jh.png) 20 stretch;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0.5;
+	transition: background-color 1s, color 1s 1s, opacity 1s;
+}
+/* FOOTER */
+footer {
+	width: 33%;
+	margin: 1rem auto;
+	border: 3px solid black;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0.5;
+	transition: background-color 1s, color 1s 1s, opacity 1s;
+}
+footer a {
+	padding: 0 1.5rem 0 1.5rem;
+	font-family: Informal Roman, serif;
+	border: 1px solid cyan;
+	border-radius: 50%;
+}
+/* THE ASIDE */
+.wrapper {
+	width: 10%;
+	height: 5%;
+	border: 3px solid #50F514;
+	border-radius: 25%;
+	background-image: url('img/purple-newcastle.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 5;
+	transition: height 4s, width 4s;
+}
+#design-selection{
+	width: 40%;
+	margin: 2rem auto 1rem auto;
+	border-width: 20px;
+	border-image: url(http://i.imgur.com/gP414jh.png) 20 stretch;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0.7;
+	transition: opacity 1s, background-color 1s, color 1s 1s;
+}
+#design-archives, #zen-resources {
+	width: 40%;
+	margin: 1rem auto;
+	border-width: 20px;
+	border-image: url(http://i.imgur.com/gP414jh.png) 20 stretch;
+	border-radius: 4px;
+	background-color: white;
+	opacity: 0.7;
+	transition: opacity 1s, background-color 1s, color 1s 1s;
+}
+#design-selection h3, #design-archives h3, #zen-resources h3 {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.sidebar a{
+	color: lightgreen;
+}
+ul {
+	list-style-type: none;
+}
+/* TRANSITIONS */
+#zen-summary:hover, #zen-preamble:hover {
+	opacity: 1.0;
+	background-color: black;
+	color: white;
+}
+#zen-explanation:hover, #zen-participation:hover, #zen-benefits:hover, #zen-requirements:hover, footer:hover {
+	opacity: 1.0;
+	background-color: black;
+	color: white;
+}
+.wrapper:hover {
+	height: 100%;
+	width: 100%;
+}
+
+.intro h1:hover, .intro h2:hover {
+	letter-spacing: 0.2rem;
+}
+#design-selection:hover, #design-archives:hover, #zen-resources:hover {
+	opacity: 1.0;
+	background-color: black;
+	color: purple;
+}
+footer a:hover {
+	background: cyan;
+	color: black;
+}
